@@ -1,0 +1,17 @@
+1) cd paso_2
+2) cat instrucciones.txt
+3) cd ..
+4) cd paso_5
+5)  head -n 2 instrucciones.txt
+6) cd paso_10
+7) cat instrucciones.txt
+8) wget https://www.gnu.org/licenses/gpl-3.0.txt
+9) grep -o -i freedom gpl-3.0.txt | wc -l
+9) cd paso_9
+10) cut -f2 -d ',' *.txt
+
+frase secreta
+🧬
+💪
+
+🤗
