@@ -1,0 +1,60 @@
+1) 	¿Cuán sencillo será alinear dos o más secuencias a mano? 
+	¿Cuánto influirán el número de secuencias a alinear, su longitud, y la similitud entre ellas?
+	
+	- No sería para nada sencillo dado que requiere analizar una por una las columnas de cada secuencia,
+	verificar si coinciden y si no, si conviene mantenerlo alineado por poseer aminoácidos similares o
+	agregar un gap afectando el orden del resto de la cadena hacia adelante.
+	
+2) ¿Son parecidos los citocromos c de humano y gallo?
+
+Tiene 92 coincidencias de 105 nucleótidos que forman parte de la secuencia total por lo que tiendo a pensar
+que son muy parecidos
+
+3) ¿Qué teorías subyacen a este análisis?
+
+4) ¿Cómo nos ayuda la evolución a explicar sus similitudes y diferencias?
+
+5) ¿Qué indican los colores?
+
+6) ¿Qué indican el guión (-), los dos puntos (:) y el asterisco (*)?
+
+- '-' el gap para permitir correr secuencia un lugar hacia la derecha
+':' indica similitud entre aminoácidos. Columna con pe
+'*' significa coincidencia
+
+7) A simple vista, ¿se conserva la secuencia del citocromo c en los organismos?
+
+- En términos grales parecen conservarse en mayor parte
+
+8) ¿Creeríamos que todos los organismos se asemejan por igual al resto,
+	o se pueden identificar grupos de mayor similitud? Si es así, ¿tienen sentido?
+	
+- No por igual, hay organismos que se asemejan mas que a otros y esa distinción se ve claramente
+en el árbol filogenético. Y si, tiene sentido ya que hay organismos que son parecidos y otros
+completamente dispares
+
+9) ¿Qué evidencias nos aportaría este análisis, a la luz de la evolución?
+
+- Nos brinda información acerca de un posible parentezco en la cadena de evolución entre ambos
+organismos
+
+10) A juzgar por los organismos participantes, 
+¿cuáles creería que deberían estar más agrupados en el árbol filogenético?
+
+- Están mas agrupados los organismos cuyas proteínas se asemejan más
+
+11) Observemos el árbol filogenético. 
+¿Concuerda con lo esperado?
+
+- Si
+
+¿De qué organismos son los citocromos c más parecidos? 
+
+- El del caballo se asemeja al del perro
+  El del Homo Sapiens con el del Chimpancé y
+  El del Salmón real y el de la rana
+
+¿Cómo se explica?
+
+- El los 3 casos ambos organismos poseen caracteristicas en común que no poseen con
+otros organismos mas alejados en el árbol.
