@@ -94,3 +94,17 @@ entre dos secuencias?
 pero que sustituyendolos no provoca no provoca grandes cambios tanto de polaridad como
 de estructura, una penalidad no importante en caso de gap y una mayor penalidad si hay
 mismatch cuya sustitución genería cambios importantes
+
+RETO VI
+
+Los valores de la matriz sale del máximo valor entre el match / mismatch entre ambos
+nucleotidos, el valor del primero de ellos con el gap y el valor del segundo de ellos 
+con el gap.
+
+PARA PENSAR: Ingresá al servidor del NCBI y mirá los distintos programas derivados
+del BLAST que se ofrecen
+¿Para qué sirve cada uno?
+¿En qué casos usarías cada uno? 
+
+-BLAST_P: usado para proteinas (tiene mas de 4 letras)
+BLAST_N: usado para acidos nucleicos (tiene 4 letras)
