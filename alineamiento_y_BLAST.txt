@@ -1,0 +1,96 @@
+RETO I: Intentemos, entonces alinear estas dos palabras, para comprender mejor el problema. 
+Alineá en la tabla interactiva las palabras "BANANA" y "MANZANA".  
+¡Tomá nota de tus observaciones y de las conclusiones que se desprendan de estas observaciones!
+
+☑️ PREGUNTAS DISPARADORAS: 
+
+¿Existe una única forma de alinearlas?
+
+- No existe una única forma, se puede poner el gap al principio para
+comparar con la 'M' de MANZANA obteniendo así 3 errores de alineamiento.
+Osea, 3 comparaciones de columnas dan error. La otra forma es alinear la 'B' con la 'M'
+y pasar el gap al final para comparar contra la 'A' final 
+
+¿Es alguno de los posibles alineamientos mejor que otro?
+
+- Si, por ejemplo en el alineamiento que tiene el gap al principio tiene 4 errores
+ mientras que el que tiene el gap al final tiene 3
+
+Si así fuera ¿Por qué?
+
+- Porque cada alineamiento tiene una cantidad distinta de errores
+
+En la siguiente tabla probá distintos alineamientos para las palabras 
+"ANA" y "ANANA". Verás que en el margen superior izquierdo aparece un valor 
+de identidad calculado para cada alineamitno que intentes.
+
+PREGUNTAS DISPARADORAS: 
+¿Son todos los valores iguales?
+para A N A - -
+     A N A N A 
+y
+para - - A N A
+     A N A N A
+	 
+los valores Identidad son 0.6 ambos
+
+y para 	- A N A -
+		A N A N A
+identidad es 0
+
+
+¿Qué consideraciones deberían tenerse en cuenta a la hora de realizar el cálculo?
+
+- Podría analizarse si una de las palabras queriendo alinear está dentro de otra
+ya que habrá un alineamiento en el que todas las comparaciones sean correctas
+
+¿Se te ocurre, distintas formas de calcularlo?
+¿Serán todas ellas igualmente válidas en Biología?
+
+RETO III: En la siguiente tabla probá distintos alineamientos para las 
+palabras "ANA" y "ANANA". Verás que en el margen superior izquierdo aparece un
+valor de identidad calculado para cada alineamitno que intentes y un botón para
+cambiar la penalidad que se le otorga a dicho para el cálculo de identidad.
+
+PREGUNTAS DISPARADORAS: 
+¿Cómo se relacionan los valores de identidad obtenidos con las penalizaciones que
+se imponen al gap?
+
+- Al mismo valor del reto anterior se le resta 0.4 por cada punto de penalidad
+
+¿Qué implicancias crees que tiene una mayor penalización de gaps?
+
+- implicaría buscar secuencias que únicamente tengan puntaje alta si son altamente similares, 
+ya que un solo mismatch puede bajar sensiblemente el puntaje obtenido
+
+¿Se te ocurre alguna otra forma de penalización que no haya sido tenido en cuenta
+en este ejemplo?
+
+-
+
+PARA PENSAR: 
+Entonces, pensando en un alineamiento de ácidos nucleicos
+¿Cuáles te parece que son las implicancias de abrir un gap en el alineamiento?
+
+- correr el alineamiento desde donde abriste el gap hasta el final 1 lugar para la derecha
+puede provocar nuevas coincidencias con la otra secuencia analizada
+
+¿Qué implicaría la inserción o deleción de una región de más de un residuo?
+
+- 
+
+RETO IV
+
+PARA PENSAR: 
+¿Dá lo mismo si el gap que introducís cae en la primera, segunda o tercer posición
+del codón?
+
+- No, cada introducción de gaps formará un nuevo alineamiento y por ende nuevos matches y mismatches
+
+¿Cómo ponderarías las observaciones de este ejercicio para evaluar el parecido
+entre dos secuencias?
+
+- Pondría el puntaje mas alto si hay un match, un puntaje menor si son aminoácidos distintos
+pero que sustituyendolos no provoca no provoca grandes cambios tanto de polaridad como
+de estructura, una penalidad no importante en caso de gap y una mayor penalidad si hay
+mismatch cuya sustitución genería cambios importantes
